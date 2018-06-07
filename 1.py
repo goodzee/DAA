@@ -6,7 +6,7 @@ print(aList)
 start=time.clock()
 for i in range(0, n-1): 
   least = i
-  for k in range( i + 1 , n ): 
+  for k in range(i+1, n): 
     if aList[k] < aList[least]:
       least = k
   aList[least],aList[i]=aList[i],aList[least] 
